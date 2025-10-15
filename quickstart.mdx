@@ -1,55 +1,136 @@
 ---
-title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+title: "Quick Start Guide"
+description: "Record Your First Video with Screen Script"
 ---
 
-## Get started in three steps
+## Get started in 3 simple steps
 
-Get your documentation site running locally and make your first customization.
+Learn how to record your screen effortlessly using **Screen Script**. This quick start guide covers everything you need to begin — **recording**, **editing**, and **saving** your videos in high quality.
 
-### Step 1: Set up your local environment
+### Step 1: Creating a Project
+To start recording, you first need to create a project.
+- Visit the **Launcher** directly at https://screenscript.app/launcher, or click on **“Create Product Demo”** from the homepage.
+- Once inside the launcher, click **“New Project.”**
+<Frame caption="Click on New Project Button">
+  <img src="/images/quickstart/create_project_1.png" alt="Image showing where to click to start new project" />
+</Frame>
+- Give your project a **name** and click **Create**.
+<Frame caption="Give a name and click create">
+  <img src="/images/quickstart/create_project_2.png" alt="Image showing where type project name and button to confirm creating project" />
+</Frame>
+- To begin recording, click the **Record** button next to your project.
+<Frame caption="Click on Record Button to open recorder">
+  <img src="/images/quickstart/create_project_3.png" alt="Image showing how to open a recorder" />
+</Frame>
 
-<AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
-  </Accordion>
-</AccordionGroup>
+### Step 2: Recording
 
-### Step 2: Deploy your changes
+When you open the recorder, you’ll be prompted to select what to capture.
+Toggle the switches next to the options you want to enable:
+- Record **Screen** (required)
+- Record **Camera** (optional)
+- Record **Mic** (optional)
 
-<AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+<Note>Currently, Screen Recording is mandatory. This may change in the future.</Note>
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+<Frame caption="Select what to capture">
+  <img src="/images/quickstart/rec_project_1.png" alt="Image showing how to select what to capture" />
+</Frame>
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
-  </Accordion>
-</AccordionGroup>
+#### Permissions
 
-### Step 3: Go live
+- If have not already granted permission to access your **camera** and **microphone**, you’ll be prompted to **grant permission** to access your **camera** and **microphone**.
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
+<Frame caption="Grant permission to screen script to access your camera and microphone">
+  <img src="/images/quickstart/rec_project_2.png" alt="Image showing how to grant permission" />
+</Frame>
+
+<Tip>💡 Tip: Choose “Allow while visiting the site” or “Always allow” to avoid repeating this step every time.</Tip>
+
+- **Screen capture permissions** must be granted each time you record. During this process, you can select whether to record a **tab**, **window**, or your **entire screen**.
+
+<Frame caption="Select which screen/tab/window to record">
+  <img src="/images/quickstart/rec_project_3.png" alt="Image showing how to select which screen/tab/window to record" />
+</Frame>
+
+- Once your options are set, click **Start Recording**. Your recording will begin — switch to your tab/window/screen and present your content.
+
+<Frame caption="Start recording">
+  <img src="/images/quickstart/rec_project_4.png" alt="Image showing how to start recording" />
+</Frame>
+
+- When finished, return to the app and click **Stop Recording**. Your recording will automatically be saved and opened in the **Editor**.
+
+<Info>Don’t worry if the start or stop part gets recorded — you can trim it out later in the **Editor**.</Info>
+
+### Step 3: Editing Your Video
+
+<Tip>Tip: For advanced editing options like background changes or custom zoom animations, visit the Editing section of the docs. Here, we’ll focus on trimming and adding a simple zoom effect.</Tip>
+
+#### 1. Trimming Start and End
+
+This section explains how to **trim the start and end of your video**. Feel free to skip this section, if you don't want to trim your video.
+
+- On the left panel, select the **Project** item under **Layers**, then you will see the **Project Settings** on the right panel, where you find **Start Trim** and **End Trim**.
+
+These values define where your video should start and end.
+
+- Adjust **Start Trim** to remove unwanted delays at the beginning.
+- Adjust **End Trim** to cut off the ending.
+
+<Frame caption="Start recording">
+  <img src="/images/quickstart/edit_project_1.png" alt="Image showing how to start recording" />
+</Frame>
+
+<Tip>Tip: You can find the exact time by playing the video or dragging the timeline pointer.</Tip>
+
+<Warning>Trimming only marks sections for removal — they won’t disappear inside the editor. You’ll see red bars on the timeline indicating trim areas. The trimmed parts are permanently removed in the exported video.</Warning>
+
+#### 2. Adding a Zoom Effect
+
+This section explains how to add a simple zoom effect to your video. Feel free to skip this section, if you don't want to add a zoom effect.
+
+- In the **Layers** panel on the left, select **Zoom Layer**. Now you may notice a **Zoom Effect Icon** that appeard above the timeline.
+
+- Click on the **Zoom icon** to add a zoom effect at the current position of the timeline pointer. You can drag and adjust it as needed.
+
+<Frame caption="Add zoom effect">
+  <img src="/images/quickstart/edit_project_2.png" alt="Image showing how to add zoom effect" />
+</Frame>
+
+- Once your edits are done, click **Export** at the top right,this will open video export settings for you.
+
+<Tip>Tip: Learn more about customizing zoom effects in the Zoom Effects section</Tip>
+<Warning>Warning: Clicking Export automatically saves your latest changes. You can also click Save anytime to preserve progress manually.</Warning>
+
+### Step 4: Exporting the Video
+
+This section explains how to export your video. The export window allows you to choose your final video settings.
+
+- Select your desired resolution — you can either choose from **presets** or enter a custom value based on the **aspect ratio** set in the **Editor**.
+
+<Frame caption="Export video">
+  <img src="/images/quickstart/exprt_project_1.png" alt="Image showing how to export video" />
+</Frame>
+
+
+#### Advanced Option: Batch Size
+
+- The **Batch Size** represents a value that is almost synonymous to how many frames are loaded at once:
+    - **Higher batch size** → faster export but uses more memory and CPU.
+    - **Lower batch size** → slower export but lighter on performance.
+
+- Screen Script automatically picks a suitable batch size for your device, but you can manually adjust it if needed.
+
+<Danger>Too high batch size may cause your device to freeze or crash.</Danger>
+
+- Once ready, click **Export** to begin rendering your video.
+
+<Warning>Rendering is a resource-intensive process. If you switch tabs during export, your browser may throttle performance or pause rendering,which can result in errors or corrupted videos. Keep the tab open until export is complete.</Warning>
+
+<Frame caption="Download video after rendering">
+  <img src="/images/quickstart/exprt_project_2.png" alt="Image showing how to download video after rendering" />
+</Frame>
 
 ## Next steps
 
@@ -75,6 +156,6 @@ Now that you have your docs running, explore these key features:
 
 </CardGroup>
 
-<Note>
+{/* <Note>
   **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
-</Note>
+</Note> */}

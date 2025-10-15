@@ -18,22 +18,43 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "faqs",
+              "how_to_x"
             ]
           },{
             "group":"Feature Guides",
             "pages":[
+                {
+                "group": "Launcher",
+                "pages": ["feature-guides/launcher/overview"]
+              },
               {
                 "group": "Recorder",
-                "pages": ["feature-guides/recorder"]
+                "pages": ["feature-guides/recorder/overview"]
               },
               {
                 "group": "Editor",
-                "pages": ["feature-guides/editor"]
+                "pages": ["feature-guides/editor/overview"]
               },
               {
                 "group": "Exporter",
-                "pages": ["feature-guides/exporter"]
+                "pages": ["feature-guides/exporter/overview"]
+              }
+            ]
+          },{
+            "group":"Use Cases",
+            "pages":[
+                {
+                "group": "Product Demo",
+                "pages": ["use-cases/product-demo"]
+              },
+              {
+                "group": "Walkthrough",
+                "pages": ["use-cases/walkthrough"]
+              },
+              {
+                "group": "Tutorial",
+                "pages": ["use-cases/tutorial"]
               }
             ]
           }
@@ -46,11 +67,6 @@
           "anchor": "Screen Script",
           "href": "https://screenscript.app/",
           "icon": "rocket"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://screenscript.app/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -63,7 +79,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:synthetic.dev.contact@gmail.com"
       }
     ],
     "primary": {
@@ -86,9 +102,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/screenscriptapp",
+      "linkedin": "https://www.linkedin.com/in/sachindas246/"
     }
   }
 }
